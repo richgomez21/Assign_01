@@ -53,7 +53,17 @@ public class MyList{
 
     public void PrePend(int data){
         //creates a node with the data passed and prepends the node passed to the beginning of the list. This node will now be the new head of the list.
+        Node newNode = new Node(data);
         
+        // if the list is empty
+        if(this.Head == null){
+            this.Head = newNode;
+        
+        }else{
+            // ther are other elements in the list
+           newNode.Next = this.Head;
+           this.Head = newNode; 
+        }
     }
 
     public void Insert(int data, int index){
