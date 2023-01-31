@@ -82,8 +82,19 @@ public class MyList{
 
     public Node? RemoveFromBack(){
         //removes the last node in the list and returns that node.
+       Node prevNode = this.Head;
+       Node curNode = this.Head.Next;
 
-        return null;
+       while(curNode.Next != null){
+            curNode = curNode.Next;
+            prevNode = prevNode.Next;
+       }
+       prevNode.Next = null;
+       return curNode;
+
+       this.Length--;
+       }
+      
     }
 
 }
