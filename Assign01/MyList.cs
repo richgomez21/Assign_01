@@ -71,6 +71,23 @@ public class MyList{
 
         //Hint: if index == 0 or if index == this.Length-1, think of how we can reuse methods we already have written
         //in order to reduce what we write for this method.
+        if(this.Head == null || index <= 0){
+            this.PrePend(data);
+        }else if(index >= this.Length){
+            this.Append(data);
+        }else{
+            Node curNode = this.Head;
+            Node newNode = new Node(data);
+            for(int i = 0; i < index - 1; i++){
+                curNode = curNode.Next;
+            }
+            newNode.Next = curNode.Next;
+            curNode.Next = newNode;
+            this.Length++;
+        }
+
+        
+    }
     }
 
     public Node? RemoveFromFront(){
