@@ -93,8 +93,17 @@ public class MyList{
     public Node? RemoveFromFront(){
         //removes the head node from the list and returns node.
         //the new head will be the next node in the list.
-        
-        return null;
+        Node newNode = new Node(data);
+        if(head == null) {
+            head = newNode;
+        }else{
+            Node curNode = new Node();
+            curNode = head;
+        while(curNode.next != null)
+            curNode = curNode.next;
+            curNode.next = newNode;
+        }    
+         return null;
     }
 
     public Node? RemoveFromBack(){
