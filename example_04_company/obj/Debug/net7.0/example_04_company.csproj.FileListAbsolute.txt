@@ -1,0 +1,15 @@
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.csproj.AssemblyReference.cache
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.AssemblyInfoInputs.cache
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.AssemblyInfo.cs
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.csproj.CoreCompileInputs.cache
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\bin\Debug\net7.0\example_04_company.exe
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\bin\Debug\net7.0\example_04_company.deps.json
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\bin\Debug\net7.0\example_04_company.runtimeconfig.json
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\bin\Debug\net7.0\example_04_company.dll
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\bin\Debug\net7.0\example_04_company.pdb
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.dll
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\refint\example_04_company.dll
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.pdb
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\example_04_company.genruntimeconfig.cache
+C:\Users\003047036\Desktop\DOT-NET\example_04_company\obj\Debug\net7.0\ref\example_04_company.dll
