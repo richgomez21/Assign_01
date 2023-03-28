@@ -4,13 +4,4 @@ Selected Employee
                     Annual Salary 97000
                     Position ID 47285220-ed1a-42fb-a623-33daff09c6d2
                     Postion Description: Software Engineer
-                    Benefits:
-                     ID: e3257cb7-0984-42c1-b432-d640dfb0a029
-                        Description: Additional Bonus
-                        Additional Amount: 3000
-                        ------------------------------------
-                         ID: 7cda860a-695b-4aac-956a-fb7245c75ef3
-                        Description: Paid Vacation
-                        Additional Amount: 2500
-                        ------------------------------------
-                        
+                    

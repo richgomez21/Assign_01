@@ -1,0 +1,15 @@
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\bin\Debug\net7.0\example_03_objects.exe
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\bin\Debug\net7.0\example_03_objects.deps.json
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\bin\Debug\net7.0\example_03_objects.runtimeconfig.json
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\bin\Debug\net7.0\example_03_objects.dll
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\bin\Debug\net7.0\example_03_objects.pdb
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.csproj.AssemblyReference.cache
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.AssemblyInfoInputs.cache
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.AssemblyInfo.cs
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.csproj.CoreCompileInputs.cache
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.dll
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\refint\example_03_objects.dll
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.pdb
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\example_03_objects.genruntimeconfig.cache
+C:\Users\003047036\Desktop\Assign_01\assign_02\example_03_objects\obj\Debug\net7.0\ref\example_03_objects.dll

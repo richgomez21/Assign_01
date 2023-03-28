@@ -4,5 +4,4 @@ Selected Employee
                     Annual Salary 100000
                     Position ID 47285220-ed1a-42fb-a623-33daff09c6d2
                     Postion Description: Software Engineer
-                    Benefits:
                     

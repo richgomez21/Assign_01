@@ -126,7 +126,18 @@ empWriter.Write(employeeB);
 
 for(int i = 0; i < microsoft.Employees.Length; i++){
     empWriter.Write(microsoft.Employees[i]);
+    
 }
+
+Employees[] allEmployees = microsoft.Employees;
+
+EmployeeOptions empOptions = new EmployeeOptions{IncludeBenefits = false, IncludePosition = true};
+// Console.WriteLine($"options IncludeBenefits: {empOptions.IncludeBenefits}");
+// Console.WriteLine($"options IncludePosition: {empOptions.IncludePosition}");
+
+empWriter.WriteAll(allEmployees, empOptions);
+// empWriter.WriteAll(microsoft.Employees);
+// empWriter.Write(employeeB);
 
 
 /***************************************************
