@@ -1,3 +1,6 @@
+using System;
+using System.IO;
+
 public class TvShowWriter{
 	/* 
 		BaseDirPath is the directory that your program should always
@@ -36,6 +39,7 @@ public class TvShowWriter{
 	}
 
 	public int CreateCountryDirectories(TvShow[] tvShows, string countryDirName){
+        int count = 0;
 		/*
 			Inside of the WritePathDir, create a new directory named {countryDirName}
 			if one does not already exist. Traverse into this directory. Then, create
@@ -45,6 +49,8 @@ public class TvShowWriter{
 
 			Returns the total number of directories that were created.
 		*/
+
+        return count;
 	}
 	
 	public void WriteShowsByCountry(TvShow[] tvShows, string countryDirName){
@@ -58,6 +64,9 @@ public class TvShowWriter{
 
 	public void WritePosters(TvShow[] tvShows, string posterDirName){
 		/*
+			OPTIONAL EXTRA CREDIT METHOD. ADDITIONAL 10 POINTS.
+			MAKE AN ATTEMPT FOR PARTIAL EXTRA CREDIT AS WELL.
+
 			Inside of the WriteDirPath directory, create a new directory named
 			{posterDirName}. Traverse into this directory. Inside of this directory,
 			create an HTML document for each tvShow named <tvShow_id>.html. This
