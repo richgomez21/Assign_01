@@ -192,16 +192,45 @@ Company microsoft = JsonSerializer.Deserialize<Company>(json, options);
     COMPANY INFO EXAMPLES BEGIN
 ****************************************************/
 
-CompanyInfo walle = new CompanyInfo("wall-e", microsoft);
+// CompanyInfo walle = new CompanyInfo("wall-e", microsoft);
 
-int numEmployees = walle.GetNumberOfEmployees();
+// int numEmployees = walle.GetNumberOfEmployees();
 
-Console.WriteLine($"Number of employees: {walle.GetNumberOfEmployees()}");
+// Console.WriteLine($"Number of employees: {walle.GetNumberOfEmployees()}");
 
-Cofounder founder = walle.GetCofounderByName("Bill Gates");
-Console.WriteLine($"Founder Id: {founder.Id}");
+// Cofounder founder = walle.GetCofounderByName("Bill Gates");
+// Console.WriteLine($"Founder Id: {founder.Id}");
 
 /***************************************************
     COMPANY INFO EXAMPLES END
+****************************************************/
+
+/***************************************************
+    THIS EXAMPLES BEGIN
+****************************************************/
+CompanyInfo botA = new CompanyInfo("wall-e", microsoft);
+CompanyInfo botB = new CompanyInfo("java_vino", microsoft);
+CompanyInfo botC = new CompanyInfo("root_note", microsoft);
+
+Console.WriteLine($"botA name: {botA.BotName} CompanyInfo Message: {CompanyInfo.Message} CompanyInfo Season: {CompanyInfo.GetSeason()}");
+Console.WriteLine($"botB name: {botB.BotName} CompanyInfo Message: {CompanyInfo.Message} CompanyInfo Season: {CompanyInfo.GetSeason()}");
+Console.WriteLine($"botC name: {botC.BotName} CompanyInfo Message: {CompanyInfo.Message} CompanyInfo Season: {CompanyInfo.GetSeason()}");
+
+// Change the name of BotB to be something else.
+botB.BotName = "grounded";
+CompanyInfo.Message = "New Message";
+
+Console.WriteLine("=====================================================");
+
+Console.WriteLine($"botA name: {botA.BotName} CompanyInfo Message: {CompanyInfo.Message} CompanyInfo Season: {CompanyInfo.GetSeason()}");
+Console.WriteLine($"botB name: {botB.BotName} CompanyInfo Message: {CompanyInfo.Message} CompanyInfo Season: {CompanyInfo.GetSeason()}");
+Console.WriteLine($"botC name: {botC.BotName} CompanyInfo Message: {CompanyInfo.Message} CompanyInfo Season: {CompanyInfo.GetSeason()}");
+
+Console.WriteLine(Directory.GetCurrentDirectory());
+// Console.WriteLine(CompanyInfo.GetNumberOfEmployees());
+Console.WriteLine(Math.Abs(-16));
+
+/***************************************************
+    THIS INFO EXAMPLES END
 ****************************************************/
 Console.WriteLine("done");

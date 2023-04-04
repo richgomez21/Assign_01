@@ -1,11 +1,17 @@
 public class CompanyInfo{
 
+    public static string Message {get; set;} = "Hello from CompanyInfo";
     public string BotName {get; set;}
     public Company CompanyObj {get; set;}
 
     public CompanyInfo(string name, Company obj){
         this.BotName = name;
         this.CompanyObj = obj;
+    }
+
+    public static string GetSeason(){
+        // return $"Spring Message {this.Botname}";
+        return $"Spring Message {CompanyInfo.Message}";
     }
 
     public Cofounder GetCofounderByName(string name){
