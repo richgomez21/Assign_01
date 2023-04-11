@@ -1,0 +1,15 @@
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.csproj.AssemblyReference.cache
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.AssemblyInfoInputs.cache
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.AssemblyInfo.cs
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.csproj.CoreCompileInputs.cache
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\bin\Debug\net7.0\example_06_fruit.exe
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\bin\Debug\net7.0\example_06_fruit.deps.json
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\bin\Debug\net7.0\example_06_fruit.runtimeconfig.json
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\bin\Debug\net7.0\example_06_fruit.dll
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\bin\Debug\net7.0\example_06_fruit.pdb
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.dll
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\refint\example_06_fruit.dll
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.pdb
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\example_06_fruit.genruntimeconfig.cache
+C:\Users\003047036\Desktop\DOT-NET\example_06_fruit\obj\Debug\net7.0\ref\example_06_fruit.dll
