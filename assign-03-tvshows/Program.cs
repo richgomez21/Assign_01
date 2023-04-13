@@ -16,3 +16,13 @@ TvShow singleShow = shows[16];
 //print out the name of the singleShow
 Console.WriteLine(singleShow.Name);
 
+string showDir = "./tvshow_directory";
+string baseDirectory = Directory.GetCurrentDirectory();
+TvShow showA = shows[2];
+TvShowWriter showWriter = new TvShowWriter(baseDirectory, showDir);
+showWriter.Write(showA);
+
+showWriter.WriteAll(shows);
+
+
+

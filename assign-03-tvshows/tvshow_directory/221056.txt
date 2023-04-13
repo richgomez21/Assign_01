@@ -1,0 +1,13 @@
+TV Show
+				ID: 221056
+				Backdrop Path: /iQ6ANV7F7I6Lc8rTLSEwDkOO37Q.jpg
+				Title: Tirol Heute
+				Country: DE
+				Language: de
+				OG Name: Tirol Heute
+				Overview: 
+				Popularity: 1459.342
+				Poster Path: 
+				Vote Avg: 5
+				Vote Cnt: 1
+				

@@ -1,0 +1,13 @@
+TV Show
+				ID: 221053
+				Backdrop Path: /nTB21wfQPX1IirpGXTmxr2VsWTC.jpg
+				Title: Zeit im Bild
+				Country: DE
+				Language: de
+				OG Name: Zeit im Bild
+				Overview: 
+				Popularity: 1473.537
+				Poster Path: https://image.tmdb.org/t/p/w500/axK66NpM828m1vdBvsfYZaXadIp.jpg
+				Vote Avg: 4
+				Vote Cnt: 4
+				

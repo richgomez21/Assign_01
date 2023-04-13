@@ -1,0 +1,13 @@
+TV Show
+				ID: 111551
+				Backdrop Path: /1vgdmeW6keP47DQ1tGwfVCdUKqu.jpg
+				Title: Haireta mou ton Platano
+				Country: GR
+				Language: el
+				OG Name: Χαιρέτα μου τον Πλάτανο
+				Overview: The small Greek village of Platanos (Plane Tree) buries the elderly recluse Vangelas and notifies the deceased's estranged children and grandchildren about his death. Vangela's will leaves 3 million euros to his family, but requires them to move to the village and obey certain terms in order to inherit.
+				Popularity: 815.856
+				Poster Path: https://image.tmdb.org/t/p/w500/vAu6or1W4G1q7wJxQfDmATtnIg.jpg
+				Vote Avg: 6
+				Vote Cnt: 9
+				

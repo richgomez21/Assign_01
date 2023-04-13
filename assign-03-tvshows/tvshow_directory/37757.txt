@@ -1,0 +1,13 @@
+TV Show
+				ID: 37757
+				Backdrop Path: /adiaXh7wX5nkaMi1J8ELs0FRbro.jpg
+				Title: MasterChef Greece
+				Country: GR
+				Language: el
+				OG Name: MasterChef Greece
+				Overview: MasterChef Greece is a Greek competitive cooking game show. It's an adaptation of the British show MasterChef.
+				Popularity: 1146.452
+				Poster Path: https://image.tmdb.org/t/p/w500/h0MR8xGqddeeJHgqDuW14jW25ov.jpg
+				Vote Avg: 5.4
+				Vote Cnt: 5
+				

@@ -21,22 +21,56 @@ public class TvShowWriter{
 	
 	public TvShowWriter(string baseDirectory, string writeDirectoryPath){
 		//set instance vars
+		this.WriteDirPath = writeDirectoryPath;
+		this.BaseDirPath = baseDirectory;
 	}
 
-	public void Write(TvShow tvShow){
+	public void Write(TvShow tvShow, bool defaultPath = true){
 		/* 
 			writes out all of the properties of the passed tvShow
 			to a txt file which is named <tvShow_id>.txt
 		*/
-		
-	}
+		if(defaultPath){
+			if(!Directory.Exists(this.WriteDirPath)){
+				Directory.CreateDirectory(this.WriteDirPath);
+			}
+			Directory.SetCurrentDirectory(this.WriteDirPath);
+		}
 
-	public void WriteAll(TvShow[] tvShows){
+		string fileName = $"{tvShow.Id}.txt";
+		string contents = $@"TV Show
+				ID: {tvShow.Id}
+				Backdrop Path: {tvShow.BackdropPath}
+				Title: {tvShow.Name}
+				Country: {tvShow.OriginCountry}
+				Language: {tvShow.OriginalLanguage}
+				OG Name: {tvShow.OriginalName}
+				Overview: {tvShow.Overview}
+				Popularity: {tvShow.Popularity}
+				Poster Path: {tvShow.PosterPath}
+				Vote Avg: {tvShow.VoteAverage}
+				Vote Cnt: {tvShow.VoteCount}
+				";
+
+		 File.WriteAllText(fileName, contents);
+
+		if(defaultPath){
+			Directory.SetCurrentDirectory(this.BaseDirPath);
+		}
+			
+	}
+	
+
+	public void WriteAll(List<TvShow> tvShows){
 		/* 
 			writes out all tvShows in the array passed. Each file
 			is named the after the given tvShow's id: <tvShow_id>.txt,
 			and will contain all properties of the tvShow.
 		*/
+		foreach(var show in tvShows){
+			this.Write(show);
+		}
+
 	}
 
 	public int CreateCountryDirectories(TvShow[] tvShows, string countryDirName){
@@ -50,6 +84,12 @@ public class TvShowWriter{
 
 			Returns the total number of directories that were created.
 		*/
+		if(!Directory.Exists(this.WriteDirPath)){
+				Directory.CreateDirectory(countryDirName);
+			}
+			Directory.SetCurrentDirectory(this.WriteDirPath);
+
+			string fileName = $"{tvShow.id}.txt";
 
         return count;
 	}
@@ -61,6 +101,21 @@ public class TvShowWriter{
 			and create a directory for each country. Inside of each country directory,
 			write only those tvShows that have their OriginCountry equal to that country.
 		*/
+		// this.Write(tvShow, false);
+		this.CreateCountryDirectories(tvShows, countryDirName);
+		// move into the writedirpath
+		// move into the countrydirname
+		string[] countryDirs = Directory.GetDirectories(Directory.GetCurrentDirectory());
+
+		// foreach countryDirs{
+			// foreach tvshows{
+				// check to see if the show.originCountry == Path.GetfileName(country)
+					// if it is => write the country here:
+						// this.Write(show, false)
+			// }
+
+			// move back one directory
+		//}
 	}
 
 	public void WritePosters(TvShow[] tvShows, string posterDirName){

@@ -1,0 +1,13 @@
+TV Show
+				ID: 213017
+				Backdrop Path: 
+				Title: Lo Zoo di 105
+				Country: IT
+				Language: it
+				OG Name: Lo Zoo di 105
+				Overview: 
+				Popularity: 910.414
+				Poster Path: https://image.tmdb.org/t/p/w500/6KL71OV5wHQGk5KZMP3qp7Mj5HA.jpg
+				Vote Avg: 3.7
+				Vote Cnt: 3
+				
