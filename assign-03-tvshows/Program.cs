@@ -24,5 +24,7 @@ showWriter.Write(showA);
 
 showWriter.WriteAll(shows);
 
+showWriter.CreateCountryDirectories(shows, "country");
+
 
 

@@ -73,7 +73,7 @@ public class TvShowWriter{
 
 	}
 
-	public int CreateCountryDirectories(TvShow[] tvShows, string countryDirName){
+	public int CreateCountryDirectories(List <TvShow> tvShows, string countryDirName){
         int count = 0;
 		/*
 			Inside of the WritePathDir, create a new directory named {countryDirName}
@@ -84,17 +84,22 @@ public class TvShowWriter{
 
 			Returns the total number of directories that were created.
 		*/
-		if(!Directory.Exists(this.WriteDirPath)){
+		if(!Directory.Exists(countryDirName)){
 				Directory.CreateDirectory(countryDirName);
 			}
-			Directory.SetCurrentDirectory(this.WriteDirPath);
+			Directory.SetCurrentDirectory(countryDirName);
 
-			string fileName = $"{tvShow.id}.txt";
+			foreach(TvShow show in tvShows){
+				Directory.CreateDirectory(show.OriginCountry);
+			}
+
+			
+
 
         return count;
 	}
 	
-	public void WriteShowsByCountry(TvShow[] tvShows, string countryDirName){
+	public void WriteShowsByCountry(List <TvShow> tvShows, string countryDirName){
 		/*
 			Inside of the WriteDirPath directory, create a new directory named
 			{countryDirName} if one does not already exist. Traverse into this directory
