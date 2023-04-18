@@ -93,7 +93,7 @@ public class TvShowWriter{
 				Directory.CreateDirectory(show.OriginCountry);
 			}
 
-			
+
 
 
         return count;
@@ -106,12 +106,20 @@ public class TvShowWriter{
 			and create a directory for each country. Inside of each country directory,
 			write only those tvShows that have their OriginCountry equal to that country.
 		*/
+		if(!Directory.Exists(countryDirName)){
+				Directory.CreateDirectory(countryDirName);
+			}
+			Directory.SetCurrentDirectory(countryDirName);
 		// this.Write(tvShow, false);
 		this.CreateCountryDirectories(tvShows, countryDirName);
 		// move into the writedirpath
 		// move into the countrydirname
 		string[] countryDirs = Directory.GetDirectories(Directory.GetCurrentDirectory());
+		foreach( in tvShows){
+			foreach(tvShows){
 
+			}
+		}
 		// foreach countryDirs{
 			// foreach tvshows{
 				// check to see if the show.originCountry == Path.GetfileName(country)
@@ -123,7 +131,7 @@ public class TvShowWriter{
 		//}
 	}
 
-	public void WritePosters(TvShow[] tvShows, string posterDirName){
+	public void WritePosters(List <TvShow> tvShows, string posterDirName){
 		/*
 			OPTIONAL EXTRA CREDIT METHOD. ADDITIONAL 10 POINTS.
 			MAKE AN ATTEMPT FOR PARTIAL EXTRA CREDIT AS WELL.
