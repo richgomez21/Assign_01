@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\003047036\\Desktop\\DOT-NET\\assign-03-tvshows\\assign-03-tvshows.csproj": {}
+    "C:\\Users\\Richard Gomez\\OneDrive\\Desktop\\Assign_01\\assign-03-tvshows\\assign-03-tvshows.csproj": {}
   },
   "projects": {
-    "C:\\Users\\003047036\\Desktop\\DOT-NET\\assign-03-tvshows\\assign-03-tvshows.csproj": {
+    "C:\\Users\\Richard Gomez\\OneDrive\\Desktop\\Assign_01\\assign-03-tvshows\\assign-03-tvshows.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\003047036\\Desktop\\DOT-NET\\assign-03-tvshows\\assign-03-tvshows.csproj",
+        "projectUniqueName": "C:\\Users\\Richard Gomez\\OneDrive\\Desktop\\Assign_01\\assign-03-tvshows\\assign-03-tvshows.csproj",
         "projectName": "assign-03-tvshows",
-        "projectPath": "C:\\Users\\003047036\\Desktop\\DOT-NET\\assign-03-tvshows\\assign-03-tvshows.csproj",
-        "packagesPath": "C:\\Users\\003047036\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\003047036\\Desktop\\DOT-NET\\assign-03-tvshows\\obj\\",
+        "projectPath": "C:\\Users\\Richard Gomez\\OneDrive\\Desktop\\Assign_01\\assign-03-tvshows\\assign-03-tvshows.csproj",
+        "packagesPath": "C:\\Users\\Richard Gomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Richard Gomez\\OneDrive\\Desktop\\Assign_01\\assign-03-tvshows\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\003047036\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Richard Gomez\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

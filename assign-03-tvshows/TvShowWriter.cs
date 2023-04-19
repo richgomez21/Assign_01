@@ -84,16 +84,25 @@ public class TvShowWriter{
 
 			Returns the total number of directories that were created.
 		*/
+
+		HashSet<string> originCountry = new HashSet<string>();
+		foreach(TvShow show in tvShows){
+			originCountry.Add(show.OriginCountry);
+		}
+		Directory.SetCurrentDirectory(this.WriteDirPath);
 		if(!Directory.Exists(countryDirName)){
 				Directory.CreateDirectory(countryDirName);
+		}
+		Directory.SetCurrentDirectory(countryDirName);
+
+		foreach(string country in originCountry){
+			if(!Directory.Exists(country)){
+				Directory.CreateDirectory(country);
+				count++;
 			}
-			Directory.SetCurrentDirectory(countryDirName);
+		}
 
-			foreach(TvShow show in tvShows){
-				Directory.CreateDirectory(show.OriginCountry);
-			}
-
-
+		Directory.SetCurrentDirectory(this.BaseDirPath);
 
 
         return count;
@@ -106,20 +115,20 @@ public class TvShowWriter{
 			and create a directory for each country. Inside of each country directory,
 			write only those tvShows that have their OriginCountry equal to that country.
 		*/
-		if(!Directory.Exists(countryDirName)){
-				Directory.CreateDirectory(countryDirName);
-			}
-			Directory.SetCurrentDirectory(countryDirName);
-		// this.Write(tvShow, false);
 		this.CreateCountryDirectories(tvShows, countryDirName);
+
+		Directory.SetCurrentDirectory(this.WriteDirPath);
+		Directory.SetCurrentDirectory(countryDirName);
+		
+	
 		// move into the writedirpath
 		// move into the countrydirname
 		string[] countryDirs = Directory.GetDirectories(Directory.GetCurrentDirectory());
-		foreach( in tvShows){
-			foreach(tvShows){
+		// foreach( in tvShows){
+		// 	foreach(tvShows){
 
-			}
-		}
+		// 	}
+		// }
 		// foreach countryDirs{
 			// foreach tvshows{
 				// check to see if the show.originCountry == Path.GetfileName(country)
@@ -129,7 +138,18 @@ public class TvShowWriter{
 
 			// move back one directory
 		//}
+		foreach(string country in countryDirs){
+			string countryDir = Path.GetFileName(country);
+			Directory.SetCurrentDirectory(country);
+			foreach(TvShow show in tvShows){
+				if(show.OriginCountry == countryDir){
+					this.Write(show, false);
+				}
+			}
+			Directory.SetCurrentDirectory("..");
+		}
 	}
+
 
 	public void WritePosters(List <TvShow> tvShows, string posterDirName){
 		/*

@@ -13,3 +13,18 @@ C:\Users\003047036\Desktop\DOT-NET\assign-03-tvshows\obj\Debug\net7.0\refint\ass
 C:\Users\003047036\Desktop\DOT-NET\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.pdb
 C:\Users\003047036\Desktop\DOT-NET\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.genruntimeconfig.cache
 C:\Users\003047036\Desktop\DOT-NET\assign-03-tvshows\obj\Debug\net7.0\ref\assign-03-tvshows.dll
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.csproj.AssemblyReference.cache
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.AssemblyInfoInputs.cache
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.AssemblyInfo.cs
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.csproj.CoreCompileInputs.cache
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.dll
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\refint\assign-03-tvshows.dll
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.pdb
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\bin\Debug\net7.0\assign-03-tvshows.exe
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\bin\Debug\net7.0\assign-03-tvshows.deps.json
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\bin\Debug\net7.0\assign-03-tvshows.runtimeconfig.json
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\bin\Debug\net7.0\assign-03-tvshows.dll
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\bin\Debug\net7.0\assign-03-tvshows.pdb
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\assign-03-tvshows.genruntimeconfig.cache
+C:\Users\Richard Gomez\OneDrive\Desktop\Assign_01\assign-03-tvshows\obj\Debug\net7.0\ref\assign-03-tvshows.dll

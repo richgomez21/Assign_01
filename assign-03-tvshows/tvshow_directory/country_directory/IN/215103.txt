@@ -1,0 +1,13 @@
+TV Show
+				ID: 215103
+				Backdrop Path: /3n2TjKw3HrwDqgVgcynvantOfS3.jpg
+				Title: Teri Meri Doriyaann
+				Country: IN
+				Language: hi
+				OG Name: तेरी मेरी डोरियाँ
+				Overview: It’s hate at first sight for Sahiba and Angad! But destined to be together, their lives get intertwined by a marriage alliance, and a love-hate story ensues.
+				Popularity: 1607.841
+				Poster Path: https://image.tmdb.org/t/p/w500/4BHDmYiuSnNL3nqKIOzLJKYX4AN.jpg
+				Vote Avg: 8
+				Vote Cnt: 2
+				

@@ -17,14 +17,12 @@ TvShow singleShow = shows[16];
 Console.WriteLine(singleShow.Name);
 
 string showDir = "./tvshow_directory";
+string countryDir = "./country_directory";
 string baseDirectory = Directory.GetCurrentDirectory();
 TvShow showA = shows[2];
 TvShowWriter showWriter = new TvShowWriter(baseDirectory, showDir);
 showWriter.Write(showA);
-
-showWriter.WriteAll(shows);
-
-showWriter.CreateCountryDirectories(shows, "country");
+showWriter.WriteShowsByCountry(shows, countryDir);
 
 
 
